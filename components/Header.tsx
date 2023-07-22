@@ -6,9 +6,9 @@ import Link from "next/link";
 export const Header = () => {
   return (
     <div className="flex justify-between items-center py-3 px-5 border-b-2">
-      <h1 className="text-2xl font-extrabold ">
-        <Link href="/">Amapola</Link>
-      </h1>{" "}
+      <Link className="font-extrabold text-3xl " href="/">
+        <h1>Amapola</h1>
+      </Link>{" "}
       <ConnectButton />
     </div>
   );

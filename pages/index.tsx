@@ -40,7 +40,7 @@ const Home: NextPage = () => {
   }, [isAuthorized]);
 
   return (
-    <div className="justify-center bg-zinc-950 min-h-screen">
+    <div className="justify-center bg-zinc-100 min-h-screen">
       <Head>
         <title>Amapola | Home</title>
         <meta content="Amapola" name="description" />
@@ -51,10 +51,10 @@ const Home: NextPage = () => {
 
       <main className="flex flex-col justify-center items-center min-h-screen p-5">
         <div className="flex flex-col justify-top items-center mb-10 max-w-xl mt-[-100px]">
-          <h1 className="text-7xl font-bold mb-5 text-white">Amapola</h1>
-          <p className="text-center text-slate-300">
+          <h1 className="text-7xl font-bold mb-5">Amapola</h1>
+          <p className="text-center text-slate-700">
             If you are an authorized inspector, please connect your wallet to
-            view your commitments and reveals.
+            access to our protocol visualization.
           </p>
         </div>
 
