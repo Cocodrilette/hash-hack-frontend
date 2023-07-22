@@ -66,7 +66,7 @@ const Home: NextPage = () => {
               Sorry. You are not authorized to access to our protocol
               visualization.{" "}
               <span className="font-bold">
-                But don't worry, you can contact us to get access to our
+                But don&apos;t worry, you can contact us to get access to our
                 service.
               </span>
             </p>
